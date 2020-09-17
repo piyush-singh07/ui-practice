@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <h2>All the fields are mandatory</h2>
+    <form action="success.html" method="get">
+        <label for="uname"><strong>Name :</strong></label>
+        <input type="text" name="name" id="uname" placeholder="Enter Name" required><br><br>
+        <label for="uemail"><strong>Email :</strong></label>
+        <input type="email" name="email" id="uemail" placeholder="Enter Email" required><br><br>
+        <label for="uage"><strong>Age :</strong></label>
+        <input type="text" name="age" id="uage" placeholder="Enter Age" required><br><br>
+        <strong>Are you interested in Dating??</strong><br><br>
+        <label for="interested">Interested</label>
+        <input type="radio" name="dating" id="interested" value="true">
+        <label for="notinterested">Not Interested</label>
+        <input type="radio" name="dating" id="notinterested" value="false"><br><br>
+        <strong>Any expectations from your side?</strong>
+        <label for="interests"></label><br><br>
+        <select name="interest" id="interests">
+            <option value="Katrina Kaif">Katrina Kaif</option>
+            <option value="Helly Henry">Helly Henry</option>
+            <option value="Paris Hilton">Paris Hilton</option>
+            <option value="Luciana Zogbi">Luciana Zogbi</option>
+        </select><br><br>
+        <label for="drink"><strong>Do you Drink??</strong> </label><br><br>
+        <label for="yes">Yes</label>
+        <input type="checkbox" name="drink" id="yes" value="yes">
+        <label for="no">No</label>
+        <input type="checkbox" name="drink" id="no" value="no">
+        <label for="rarely">Rarely</label>
+        <input type="checkbox" name="drink" id="rarely" value="rarely"><br><br>
+        <strong>Your any other preferences????</strong>
+        <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+input:checked {
+    margin-left: 50px;
+}
+
+h1:hover {
+    color: white;
+    border: 10px red solid;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: violet;
+}
+
+a {
+    color: springgreen;
+}
+
+body {
+    background-color: #bdc646;
+}
+
+h1 {
+    color: #9b79b8;
+}
+
+h2 {
+    color: yellow;
+}
+
+li {
+    color: red;
+}
+
+p {
+    background-color: white;
+}
+
+input {
+    border: red;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.hello {
+    background-color: royalblue;
+    color: white;
+}
+
+.special {
+    border: orange solid 10px;
+}
+
+input[type="text"] {
+    background: paleturquoise;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+.special:first-letter {
+    font-size: 50px;
+    color: red;
+}

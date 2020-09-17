@@ -1,0 +1,11 @@
+div{
+    color:red;
+}
+h1{
+    color: blue;
+    font-style: oblique;
+}
+span{
+    color: chartreuse;
+    font-style: italic;
+}

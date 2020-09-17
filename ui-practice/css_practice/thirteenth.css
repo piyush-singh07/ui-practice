@@ -1,0 +1,42 @@
+h1 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+.tab {
+    margin: auto;
+}
+
+td {
+    border: solid white 10px;
+    height: 300px;
+    width: 150px;
+}
+
+#one {
+    background-color: violet;
+}
+
+#two {
+    background-color: indigo;
+}
+
+#three {
+    background-color: blue;
+}
+
+#four {
+    background-color: green;
+}
+
+#five {
+    background-color: yellow;
+}
+
+#six {
+    background-color: orange;
+}
+
+#seven {
+    background-color: red;
+}

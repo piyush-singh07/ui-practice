@@ -1,0 +1,72 @@
+/* Universal selector applicable for all the elements */
+
+
+/* * {
+    color: blue
+} */
+
+
+/* Descendant Selector ----> parent to child 
+    every anchor tag present in li tag.
+*/
+
+
+/* li a {
+    color: greenyellow;
+    background-color: grey;
+} */
+
+
+/* 
+Above can be like this also 
+for every a present in li in ol   ----> parent parent child relation .. will only applicable for ol
+ol li a {
+    color: greenyellow;
+    background-color:grey;
+}
+
+*/
+
+
+/* 
+    Adjacent Selector -----> for every ol tag adjacent to a tag the definition will be applicable
+
+    */
+
+
+/* a+ol {
+    color: violet;
+} */
+
+
+/* 
+Attribute Selector
+*/
+
+
+/* input[type="text" id="age"] {
+    background-color: yellow;
+}
+
+input[type="password"] {
+    background-color: tomato;
+    color: turquoise;
+}
+
+a[href="https://www.google.com/"] {
+    color: lawngreen;
+} */
+
+
+/* 
+:nth-of-type() selector
+*/
+
+
+/* li:nth-of-type(2) {
+    color: darkcyan;
+} */
+
+ul:nth-of-type(1) {
+    color: tomato;
+}
