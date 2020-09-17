@@ -1,0 +1,19 @@
+body {
+    padding-top: 70px;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-header {
+    color: cornflowerblue;
+}
+
+.navbar a {
+    color: white;
+}
+
+.button {
+    background-color: white;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_files/bootstrap.css">
+    <style>
+        .box {
+            background-color: blueviolet;
+            color: white;
+            border: black 2px solid;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Left</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="//codeply.com">Codeply</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+            </div>
+            <!--   <div class="mx-auto order-0">
+            <a class="navbar-brand mx-auto" href="#">Navbar 2</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div> -->
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Right</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <br><br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 box"> Element 1</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 box"> Element 2</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 box"> Element 3</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 box"> Element 4</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6  box">
+                <div class="row">
+                    <div class="col-lg-4 box">Nested El 1</div>
+                    <div class="col-lg-4 box">Nested El 2</div>
+                    <div class="col-lg-4 box">Nested El 3</div>
+                </div>
+            </div>
+            <div class="col-lg-6  box"> Element 2</div>
+
+        </div>
+    </div>
+</body>
+
+</html>

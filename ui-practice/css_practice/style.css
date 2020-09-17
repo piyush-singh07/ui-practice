@@ -1,0 +1,14 @@
+h1{
+    color: crimson;
+    text-align: center;
+}
+
+#second{
+    color: darkblue;
+    text-align: left;
+}
+
+.third{
+    color: darkorange;
+    text-align: right;
+}

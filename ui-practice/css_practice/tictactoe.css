@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+.tab {
+    height: 300px;
+    width: 300px;
+    margin: 30px auto;
+}
+
+td {
+    height: 100px;
+    width: 100px;
+}
+
+.vertical {
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+
+.horizontal {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+td:hover {
+    border: 2px solid red;
+}

@@ -1,0 +1,11 @@
+table,
+th,
+td {
+    border: solid red;
+    /*  border-collapse: collapse; */
+    empty-cells: hide;
+}
+
+caption {
+    caption-side: bottom;
+}
